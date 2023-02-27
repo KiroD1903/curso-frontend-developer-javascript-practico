@@ -182,6 +182,7 @@ nav {
 }
 
 .product-detail {
+    background-color: var(--white);
     width: 360px;
     padding: 0 24px;
     box-sizing: border-box;
@@ -286,6 +287,12 @@ nav {
     height: 240px;
     border-radius: 20px;
     object-fit: cover;
+}
+
+#img-product:hover {
+    cursor: pointer;
+    width: 245px;
+    height: 245px;
 }
 
 .product-info {
